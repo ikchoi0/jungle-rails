@@ -10,7 +10,7 @@
   <div>
     <% disabled = product.quantity == 0 ? "disabled" : "" %>
     <% if product.quantity == 0 %>
-      <button class="soldout">
+      <button class="btn" style="background-color:red" disabled>
         Sold Out
       </button>
     <% end %>
